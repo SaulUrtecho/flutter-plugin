@@ -53,7 +53,7 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Column(
             children: [
-              Text('Running on: $_platformVersion\n'),
+              Text('Running on the version: $_platformVersion\n'),
               const SizedBox(height: 16),
               Text('Battery level: $_batteryLevel\n'),
             ],
